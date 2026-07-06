@@ -1,0 +1,40 @@
+durunex-erp-toolkit/
+│   ├── .gitignore
+│   ├── CONTRIBUTING.md
+│   ├── LICENSE
+│   ├── README.md
+│   ├── SECURITY.md
+├── docs/
+│   │   ├── approval-workflow.md
+│   │   ├── architecture.md
+│   │   ├── authorization-model.md
+│   │   ├── modules.md
+│   │   ├── open-source-scope.md
+│   │   ├── project-overview.md
+│   │   ├── roadmap.md
+│   │   ├── sap-b1-inspired-workflows.md
+├── examples/
+│   ├── sap-b1-mssql-reports/
+│   │   │   ├── bank-balance-summary.sql
+│   │   │   ├── customer-aging.sql
+│   │   │   ├── inventory-by-warehouse.sql
+│   │   │   ├── open-orders.sql
+│   │   │   ├── purchase-summary.sql
+│   │   │   ├── sales-summary.sql
+│   ├── php-helpers/
+│   │   │   ├── date_helper.php
+│   │   │   ├── money_format_tr.php
+│   │   │   ├── sql_safe_select_example.php
+│   ├── workflows/
+│   │   │   ├── inventory-transfer-example.md
+│   │   │   ├── payment-approval-example.md
+│   │   │   ├── purchase-approval-example.md
+├── src/
+│   ├── Helpers/
+│   │   │   ├── DateHelper.php
+│   │   │   ├── TurkishMoneyParser.php
+│   ├── Examples/
+│   │   │   ├── ApprovalWorkflowExample.php
+│   │   │   ├── AuthorizationExample.php
+├── screenshots/
+│   │   ├── README.md
